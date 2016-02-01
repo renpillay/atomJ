@@ -25,3 +25,7 @@
 
 'body':
   'cmd-shift-w':'pane:close-other-items'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-[': 'delorean:backward'
+  'cmd-]': 'delorean:forward'
